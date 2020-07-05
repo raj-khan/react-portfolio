@@ -6,10 +6,10 @@ class Header extends Component {
             <div className="header">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-4 my-auto">
+                        <div className="col col-auto my-auto">
                             <a href="/" className="logo">Your Portfolio</a>
                         </div>
-                        <div className="col-lg-4 my-auto text-center">
+                        <div className="col my-auto text-right">
                             <div className="mainmenu">
                                 <ul>
                                     <li><a href="/">Home</a></li>
@@ -18,12 +18,6 @@ class Header extends Component {
                                     <li><a href="/credits">Credits</a></li>
                                 </ul>
                             </div>
-                        </div>
-                        <div className="col-lg-4 my-auto text-right">
-                            <form action="">
-                                <input type="text" placeholder="Search Here"/>
-                                <input type="submit" value="search"/>
-                            </form>
                         </div>
                     </div>
                 </div>

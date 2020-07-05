@@ -75,8 +75,6 @@ img {
 
 h2 {
     font-weight: 900;
-    text-align: center;
-    margin-bottom: 30px;
 }
 
 .single-photo-item h5 {
@@ -134,4 +132,8 @@ p.cat-name {
     object-fit: cover;
     height: 100%;
     width: 100%;
+}
+
+.top-heading{
+    margin-bottom: 40px;
 }
