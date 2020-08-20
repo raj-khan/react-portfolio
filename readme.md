@@ -7,6 +7,8 @@ In this project, I used https://unsplash.com/ Live API to showcase images with s
 ## How I built it
 I make a design it using HTML, CSS then I get data from https://unsplash.com/.
 
+I get help while learning react from Bangladeshi Programmer @Rasel Ahmed
+
 ## Challenges I ran into
 I face many problems for the very first time. Because I was new to React.
 
