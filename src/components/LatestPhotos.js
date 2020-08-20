@@ -29,7 +29,6 @@ class LatestPhotos extends Component {
     }
 
     loadNextPage = (e) => {
-        console.log(this.state.page);
         axios.get('https://api.unsplash.com/photos/?client_id=wu7CUeow5HCvgKDOIZ3801ePPSO4A_UwuyBYyycDQaA&per_page=16&page=' + this.state.page).then(
             res => this.setState({
                 photos: res.data,
@@ -144,7 +143,7 @@ class LatestPhotos extends Component {
                         this.state.photos.map((photo) => (
                             <div key={photo.id} className="col-lg-3">
                                 <div className="single-photo-item">
-                                    <a className="d-block" href="/">
+                                    <a className="d-block" href={'photo?id=' + photo.id}>
                                         <div className="photo-wrapper">
                                             <img src={photo.urls.small} alt={photo.description}/>
                                         </div>
